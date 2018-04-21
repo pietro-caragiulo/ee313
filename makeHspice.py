@@ -63,6 +63,7 @@ def main():
         line = re.sub(r'.PARAM', r'*.PARAM', line)
         line = re.sub(r'W=([^\s]+)', r"W='\1'", line)
         line = re.sub(r'L=([^\s]+)', r"L='\1'", line)
+        line = re.sub(r'm=([^\s]+)', r"m='\1'", line)
 
         # handle the topcell
         line = re.sub('.SUBCKT ' + top, commentSUBCKT, line)
