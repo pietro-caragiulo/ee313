@@ -1,5 +1,5 @@
 # Author: Pietro Caragiulo
-# Rev: 20180414.1
+# Rev: 20180421.1
 # Usage: python .\makeHspice.py -i .\netlist -top topcell
 # Usage for Developer: python .\makeHspice.py -v -i .\netlist -top topcell
 # This script will create a SPICE file with name netlist.new
